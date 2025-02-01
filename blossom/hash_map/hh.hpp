@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string.h>
 #include <climits>
-#include "linked_list/ll.hpp"
+#include "../linked_list/ll.hpp"
 #define MAX 50
 unsigned int sumASCII(char *);
 class HashMap {
