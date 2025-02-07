@@ -37,5 +37,12 @@ int main() {
     cout << "No enough money to transfer.\n";
     a_bank.printAccounts();
   }
+  BankAccount* account_1001 = a_bank.findAccount("1001");
+  BankAccount* account_1002 = a_bank.findAccount("1002");
+  BankAccount* account_1003 = a_bank.findAccount("1003");
+  account_1001->printHistory();
+  account_1002->printHistory();
+  account_1003->printHistory();
+  
   return 0;
 }

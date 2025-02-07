@@ -10,4 +10,7 @@ public:
   void deposit(string des, double amount);
   void withdraw(string des, double amount);
   void printAccounts(void);
+  void addHistoryForTransfer(string des, string src, double amount);
+  void addHistoryForWithdraw(string src, double amount);
+  void addHistoryForDeposit(string src, double amount);
 };
