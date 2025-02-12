@@ -48,7 +48,7 @@ void Bank::withdraw(string des, double amount) {
 }
 void Bank::printAccounts() {
   for (auto& account : this->accounts) {
-    cout << account.getAccountNumber() << ' ' << account.getBalance() << '\n';
+    cout << "Account number " << account.getAccountNumber() << " has a balance of " << account.getBalance() << '\n';
   }
 }
 void Bank::addHistoryForTransfer(string des, string src, double amount) {
